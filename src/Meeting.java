@@ -1,7 +1,7 @@
 public class Meeting {
 
     public static void main(String[] args) {
-        Date meetingDate = new Date();
+        Date meetingDate = new Date(2, 29, 2023);
 
         meetingDate.month = 2;
         meetingDate.day = 29;
