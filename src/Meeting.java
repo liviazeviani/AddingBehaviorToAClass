@@ -7,6 +7,8 @@ public class Meeting {
 //        meetingDate.day = 29;
 //        meetingDate.year = 2023;
 
+       // this will be a problem
+       // meetingDate.day++;
         System.out.println("The meeting will be on " + meetingDate.month + "/" + meetingDate.day + "/" + meetingDate.year);
     }
 }
