@@ -4,6 +4,10 @@ public class Date {
     public int month;
     public int year;
 
+    public boolean isLeapYear(int year){
+        return (((year % 4) == 0) && ((year % 100) != 0)) || ((year % 400 ) ==0 );
+    }
+
     public int daysInMonth(int month, int year){
         int returnValue;
         switch(month) {
