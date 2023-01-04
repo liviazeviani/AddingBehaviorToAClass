@@ -9,6 +9,6 @@ public class Meeting {
 
        // this will be a problem
        // meetingDate.day++;
-        System.out.println("The meeting will be on " + meetingDate.month + "/" + meetingDate.day + "/" + meetingDate.year);
+        System.out.println("The meeting will be on " + meetingDate.getMonth() + "/" + meetingDate.day + "/" + meetingDate.year);
     }
 }

@@ -4,6 +4,10 @@ public class Date {
     private int month;
     private int year;
 
+    public String toString(){
+        return this.month + "/" + this.day + "/" + this.year;
+    }
+
     public int getDay() {
         return day;
     }
